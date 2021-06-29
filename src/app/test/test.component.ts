@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  constructor(private _employee : emp) { }
-
+  constructor(private _employee : emp) { 
   
 
   ngOnInit() {
