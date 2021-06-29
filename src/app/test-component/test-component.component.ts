@@ -1,16 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ServiceService } from '../service.service';
-
 @Component({
-  selector: 'app-test',
-  template: `
-    <ul *ngFor="let data of list">
-      <h1>{{ data.name }}</h1>
-    </ul>
-  `,
-  styleUrls: ['./test.component.css']
+  selector: 'app-test-component',
+  templateUrl: './test-component.component.html',
+  styleUrls: ['./test-component.component.css']
 })
-export class TestComponent implements OnInit {
+export class TestComponentComponent implements OnInit {
   list = [];
 
   constructor(private _employee: ServiceService) {}

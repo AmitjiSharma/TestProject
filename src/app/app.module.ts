@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ServiceService } from './service.service';
 import { TestComponent } from './test/test.component';
+import { TestComponentComponent } from './test-component/test-component.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, TestComponent ],
+  declarations: [ AppComponent, HelloComponent, TestComponent, TestComponentComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ServiceService]
 })
